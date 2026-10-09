@@ -4,7 +4,9 @@ Mô hình tương tác cho ý tưởng máy nấu tự động: người dùng s
 
 ## Chạy bản thử
 
-Tải `index.html`, mở bằng Chrome, Edge hoặc Safari. Không cần cài đặt, API key, thư viện ngoài hay kết nối mạng. GitHub hiển thị mã nguồn; cần tải file để chạy mô phỏng. Chưa triển khai website công khai.
+[Mở mô phỏng trực tiếp](https://gibaohihi-bot.github.io/ai-cooking-machine/) trên GitHub Pages.
+
+Hoặc tải `index.html`, mở bằng Chrome, Edge hoặc Safari. Bản tải về không cần cài đặt, API key, thư viện ngoài hay kết nối mạng.
 
 ## Xem máy
 
@@ -34,6 +36,6 @@ Mô hình dùng Canvas 2D để chiếu các khối 3D theo phối cảnh, sắp
 
 ## Kiểm tra
 
-`node --check simulator.js` kiểm tra cú pháp. `node verify.cjs` chạy kiểm tra logic mô phỏng bằng DOM/canvas giả lập: hoàn tất, giữ lại ngăn không dùng, tạm dừng, kẹt ngăn, quá nhiệt, điều kiện đầu vào và phản hồi. Đây chưa phải kiểm tra giao diện trực quan trên trình duyệt.
+`node --check simulator.js` kiểm tra cú pháp. `node verify.cjs` chạy kiểm tra logic mô phỏng bằng DOM/canvas giả lập: hoàn tất, giữ lại ngăn không dùng, tạm dừng, kẹt ngăn, quá nhiệt, điều kiện đầu vào và phản hồi. Giao diện đã được mở và chạy thử một mẻ trên website GitHub Pages bằng Chrome.
 
 `simulator.js` là bản tách script từ HTML phục vụ kiểm tra; mã chạy độc lập nằm đầy đủ trong `index.html`.
